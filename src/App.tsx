@@ -5,6 +5,7 @@ import Index from './pages/Index'
 import Portfolio from './pages/Portfolio'
 import About from './pages/About'
 import Contacts from './pages/Contacts'
+import Dashboard from './pages/Dashboard'
 import NotFound from './pages/NotFound'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/about" element={<About />} />
         <Route path="/contacts" element={<Contacts />} />
+        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
